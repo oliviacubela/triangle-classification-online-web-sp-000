@@ -13,11 +13,11 @@ class Triangle
         raise TriangleError
         puts error.message
       end
-    elsif @side_one == @side_two && @side_one == @side_three 
+    elsif @side_one == @side_two && @side_one == @side_three
       self.kind == :equilateral
     elsif @side_one == @side_two || @side_one == @side_three || @side_two == @side_three
       self.kind == :isosceles
-    else 
+    else
       self.kind == :scalene
     end
   end
@@ -26,5 +26,5 @@ class Triangle
 
   end
 
-  
+
 end
