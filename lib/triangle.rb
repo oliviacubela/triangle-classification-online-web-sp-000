@@ -29,3 +29,4 @@ class Triangle
       puts "not a triangle"
     end
   end
+end
